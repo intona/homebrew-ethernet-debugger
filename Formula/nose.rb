@@ -5,6 +5,7 @@ class Nose < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "libusb"
+  depends_on "readline"
 
   def install
     mkdir "build" do
